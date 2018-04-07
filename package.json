@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Elaina Swann Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emswann/Portfolio.git"
+  },
+  "author": "Elaina M. Swann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emswann/Portfolio/issues"
+  },
+  "homepage": "https://github.com/emswann/Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.4",
+    "path": "^0.12.7"
+  }
+}

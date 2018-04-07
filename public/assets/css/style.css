@@ -1,0 +1,52 @@
+.view {
+  background: url("../images/PortfolioBackground.jpg") no-repeat center center;
+  background-size: cover;
+}
+    
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: #4285F4;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+a {
+  color: #000000;
+  font-weight: bold;
+}
+
+.img-social {
+  height: 2rem;
+  width: 2rem;
+}
+
+.modal-dialog {
+  height: 100%;
+}
+
+.figure-img {
+  height: 10rem;
+  width: 11rem;
+}
+
+#img-profile {
+  height: 11rem;
+  width: 10rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #4285F4;
+  }
+}

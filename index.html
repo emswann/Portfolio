@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Elaina Swann Portfolio" />
+  <meta name="keywords" content="Elaina, Swann" />
+  <meta name="author" content="Elaina Swann" />
+
+  <title>Elaina Swann Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+
+   <!-- Portfolio CSS -->
+  <link href="/assets/css/style.css" rel="stylesheet"> 
+</head>
+
+<body>
+
+<!-- Portfolio Modal -->
+<div class="modal fade" id="modalProjects" tabindex="-1" role="dialog" aria-labelledby="projectsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-side modal-right" role="document">
+    <div class="modal-content">
+      <div class="modal-header rgba-purple-strong white-text text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Projects</h4>
+        <button type="button" class="close x-close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/Bookmark.jpg" class="figure-img img-fluid" alt="Bookmark">
+              <figcaption class="figure-caption text-center"><a href="https://bookmark-gt.herokuapp.com" target="_blank">Bookmark</a></figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/StillOpen.jpg" class="figure-img img-fluid" alt="Still Open">
+              <figcaption class="figure-caption text-center"><a href="https://emswann.github.io/still-open/" target="_blank">Still Open</a></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/mySql.png" class="figure-img img-fluid" alt="bAmazon">
+              <figcaption class="figure-caption text-center"><a href="https://github.com/emswann/bAmazon.git" target="_blank">bAmazon</a></figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/StarWarsRPG.jpg" class="figure-img img-fluid" alt="Star Wars RPG">
+              <figcaption class="figure-caption text-center"><a href="https://emswann.github.io/StarWarsRPG/" target="_blank">Star Wars RPG</a></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/Trivia.jpg" class="figure-img img-fluid" alt="Trivia">
+              <figcaption class="figure-caption text-center"><a href="https://emswann.github.io/TriviaGame/" target="_blank">Trivia</a></figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/BurgerLogger.jpg" class="figure-img img-fluid" alt="Burger Logger">
+              <figcaption class="figure-caption text-center"><a href="https://sequelizedburger-ems.herokuapp.com/" target="_blank">Burger Logger</a></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/FriendFinder.jpg" class="figure-img img-fluid" alt="Friend Finder">
+              <figcaption class="figure-caption text-center"><a href="https://friend-finder-ems.herokuapp.com" target="_blank">Friend Finder</a></figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/GiphyAnimals.jpg" class="figure-img img-fluid" alt="Giphy Animals">
+              <figcaption class="figure-caption text-center"><a href="https://emswann.github.io/Giphy-Animals/" target="_blank">Giphy Animals</a></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/nodeJS.jpg" class="figure-img img-fluid" alt="LIRI">
+              <figcaption class="figure-caption text-center"><a href="https://github.com/emswann/liri-node-app.git" target="_blank">LIRI</a></figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/nodeJS.jpg" class="figure-img img-fluid" alt="Constructor Hangman">
+              <figcaption class="figure-caption text-center"><a href="https://github.com/emswann/Constructor-Hangman.git" target="_blank">Constructor Hangman</a></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <figure class="figure">
+              <img src="/assets/images/Hangman.jpg" class="figure-img img-fluid" alt="Hangman">
+              <figcaption class="figure-caption text-center"><a href="https://emswann.github.io/Hangman-Game/" target="_blank">Hangman</a></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div> 
+      <div class="modal-footer rgba-grey-light justify-content-center">
+        <button type="button" class="btn rgba-purple-strong white-text" id="btn-projects" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Contact Modal-->
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header rgba-grey-light text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Contact Me</h4>
+        <button type="button" class="close x-close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3" id="contact-form">
+        <div class="md-form mb-5">
+          <i class="fa fa-user prefix grey-text"></i>
+          <input type="text" id="name" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="name">Your name</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fa fa-envelope prefix grey-text"></i>
+          <input type="email" id="email" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="email">Your email</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fa fa-tag prefix grey-text"></i>
+          <input type="text" id="subject" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="subject">Subject</label>
+        </div>
+        <div class="md-form">
+          <i class="fa fa-pencil prefix grey-text"></i>
+          <textarea type="text" id="message" class="md-textarea form-control" rows="4"></textarea>
+          <label data-error="wrong" data-success="right" for="message">Your message</label>
+        </div>
+      </div>
+      <div class="modal-footer d-flex rgba-grey-light justify-content-center">
+        <button class="btn btn-unique" id="btn-contact">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Main Navigation-->
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <a class="navbar-brand" href="#"><strong>Portfolio</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" id="navbar-list">
+        <li class="nav-item active" id="li-home">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" id="li-profile">
+            <a class="nav-link" href="#profile">Profile</a>
+        </li>
+        <li class="nav-item" id="li-projects">
+            <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item" id="li-contact" >
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/elainaswann" target="_blank"><img class="img-social" src="/assets/images/linkedin.png" alt="Linkedin website" /></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/emswann/" target="_blank"><img class="img-social" src="/assets/images/github.png" alt="Github website" /></a>
+        </li>
+      </ul>
+    </div>
+  </nav>      
+  <div class="view intro-2">
+    <div class="full-bg-img">
+      <div class="mask rgba-purple-light flex-center">
+        <div class="container text-center white-text wow fadeInUp">
+          <h1>ELAINA SWANN</h1>
+          <br>
+          <h2>Full Stack Software Developer</h2>
+          <br>
+          <h5>C++, Perl, JavaScript, Node, React, SQL, NoSQL</h5>
+          <h5>Agile trained and loving it!</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+<!--Main Navigation-->
+
+<!--Main Layout-->
+<main class="text-center py-5" id="profile">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-thumbnail mr-2 float-md-left" id="img-profile" src="/assets/images/ElainaSwannProfile.jpg" alt="Elaina Swann Profile" />
+        <h5 class="mt-0 font-weight-bold">About Me</h5>
+        <p align="justify">I currently live in Bluffton, South Carolina and throughly enjoy the sunny, beach life. I previously lived on a 16-acre property in Eastern Pennsylvania complete with horses, dogs, cats and all types of wildlife. I love any type of animal! Prior to Pennsylvania, I lived in Alabama, New Jersey, Georgia and Mississippi. As you can probably guess, I am not a huge fan of cold weather.<br><br>I earned my BS degree in Computer Science, with a minor in Math, from the University of Alabama in Huntsville. I have been programming for 27 years and have seen many technologies along the way. As a senior level programmer, I have also worked as an SME and project lead. However; I have never strayed far from actual development work. I love to solve problems and satisfy my need to create by writing software applications. If not a developer, I would definitely be working in a field with an -ology on the end of it - or maybe Forensic Sciences.<br /><br /> When I am not on the computer you can find me walking, listening to music, or involved in something athletic. You might even catch me watching crime solving shows on TV or solving puzzles.</p>
+      </div>
+    </div>
+  </div>
+</main>
+<!--Main Layout-->
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+<!-- Application specific javascript -->
+<script src="/assets/javascript/portfolio.js"></script>  
+
+</body>
+
+</html>
