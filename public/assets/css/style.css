@@ -40,6 +40,10 @@ a {
   width: 11rem;
 }
 
+.proj-desc {
+  font-size: 75%;
+}
+
 #img-profile {
   height: 11rem;
   width: 10rem;
